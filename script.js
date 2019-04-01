@@ -16,7 +16,7 @@ new Vue ({
         showFriendsName: false,  
         
         styleObject: {
-            color: "darkgreen"
+            color: "#3f012c"
         }
     }
 });

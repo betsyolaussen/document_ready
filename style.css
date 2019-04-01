@@ -11,10 +11,20 @@ h1 {
     border-color: white;
     padding: .5em;
     margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
 }
 
 #llamaFacts {
     margin-left: 3em;
+    position: absolute;
     font-size: 20px;
     font-family: sans-serif;
+}
+
+.picture {
+    height: 50%x;
+    width: 50%;
+    float: right;
+    margin-right: 3em;
 }
