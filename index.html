@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-            
+       <link rel="stylesheet" href="style.css">     
     </head>
 
     <body>
         <h1>About Ragnarok the Llama!</h1>
-        
-        <div id="llamaFacts">
+
+        <div id="llamaFacts" v-bind:style="styleObject">
           <p v-for="(value, key) in object">
               {{ key }}: {{ value }}
           </p> 
+          <p v-if="showFriendsName==false">Just kidding, my best friends name is Jack</p>
         </div>
 
         <script src="vue.js"></script>

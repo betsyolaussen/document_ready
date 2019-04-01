@@ -11,7 +11,12 @@ new Vue ({
             weight: "150 pounds",
             favoriteColor: "ocean blue",
             favoriteCoffee: "iced americano",
-            bestFriendsName: "Penny"
-        }     
+            bestFriendsName: "Penny", 
+        },
+        showFriendsName: false,  
+        
+        styleObject: {
+            color: "darkgreen"
+        }
     }
 });
