@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+            
     </head>
 
     <body>
-        <div id="RagnarokLlamaFacts">
-
+        <h1>About Ragnarok the Llama!</h1>
+        
+        <div id="llamaFacts">
+          <p v-for="(value, key) in object">
+              {{ key }}: {{ value }}
+          </p> 
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+        <script src="vue.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
